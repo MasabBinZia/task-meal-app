@@ -16,6 +16,24 @@ function HomePage() {
           <Button className="w-full">Random Meal</Button>
         </Link>
       </div>
+      <a href="/" className="text-2xl font-bold hover:text-primary">
+              Home Page
+            </a>
+            <a href="/menu" className="text-2xl font-bold hover:text-primary">
+              Menu
+            </a>
+            <a
+              href="/favorites"
+              className="text-2xl font-bold hover:text-primary"
+            >
+              My Favorites
+            </a>
+            <a
+              href="/random-meal"
+              className="text-2xl font-bold hover:text-primary"
+            >
+              Random Meal
+            </a>
     </main>
   );
 }
