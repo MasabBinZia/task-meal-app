@@ -9,7 +9,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { AlignJustify } from "lucide-react";
-import { Link } from "react-router-dom";
 
 export function NavMenu() {
   return (
@@ -23,33 +22,33 @@ export function NavMenu() {
         <SheetHeader>
           <SheetTitle>Navigation Menu</SheetTitle>
           <SheetDescription className="flex flex-col justify-center">
-            <Link to="/" className="text-2xl font-bold hover:text-primary">
+            <a href="/" className="text-2xl font-bold hover:text-primary">
               Home Page
-            </Link>
-            <Link to="/menu" className="text-2xl font-bold hover:text-primary">
+            </a>
+            <a href="/menu" className="text-2xl font-bold hover:text-primary">
               Menu
-            </Link>
-            <Link
-              to="/favorites"
+            </a>
+            <a
+              href="/favorites"
               className="text-2xl font-bold hover:text-primary"
             >
               My Favorites
-            </Link>
-            <Link
-              to="/random-meal"
+            </a>
+            <a
+              href="/random-meal"
               className="text-2xl font-bold hover:text-primary"
             >
               Random Meal
-            </Link>
+            </a>
           </SheetDescription>
         </SheetHeader>
         <div className="flex flex-col justify-end mt-80">
-          <Link
-            to="/about-me"
+          <a
+            href="/about-me"
             className="text-2xl font-bold hover:text-primary mt-28"
           >
             About Me
-          </Link>
+          </a>
         </div>
       </SheetContent>
     </Sheet>
