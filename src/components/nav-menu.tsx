@@ -25,6 +25,11 @@ export function NavMenu() {
             <a href="/" className="text-2xl font-bold hover:text-primary">
               Home Page
             </a>
+            <a href={"/random-meal"}>
+              <Button variant={"link"} className="w-full">
+                Random Meal
+              </Button>
+            </a>
             <a href="/menu" className="text-2xl font-bold hover:text-primary">
               Menu
             </a>
