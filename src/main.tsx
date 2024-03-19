@@ -16,19 +16,19 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/menu",
+    path: "menu",
     element: <MenuPage />,
   },
   {
-    path: "/favorites",
+    path: "favorites",
     element: <FavoritesPage />,
   },
   {
-    path: "/random-meal",
+    path: "random-meal",
     element: <RandomMealPage />,
   },
   {
-    path: "/about-me",
+    path: "about-me",
     element: <AboutMePage />,
   },
   {
