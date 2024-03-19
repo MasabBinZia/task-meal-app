@@ -25,17 +25,17 @@ export function NavMenu() {
             <a href="/" className="text-2xl font-bold hover:text-primary">
               Home Page
             </a>
-            <a href="/menu" className="text-2xl font-bold hover:text-primary">
+            <a href="menu" className="text-2xl font-bold hover:text-primary">
               Menu
             </a>
             <a
-              href="/favorites"
+              href="favorites"
               className="text-2xl font-bold hover:text-primary"
             >
               My Favorites
             </a>
             <a
-              href="/random-meal"
+              href="random-meal"
               className="text-2xl font-bold hover:text-primary"
             >
               Random Meal
@@ -44,7 +44,7 @@ export function NavMenu() {
         </SheetHeader>
         <div className="flex flex-col justify-end mt-80">
           <a
-            href="/about-me"
+            href="about-me"
             className="text-2xl font-bold hover:text-primary mt-28"
           >
             About Me
