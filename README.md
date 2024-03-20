@@ -1,6 +1,6 @@
 # Meal App
 
-MealFinder is a React-based web application developed as a 24-hour challenge project. It utilizes TheMealDB API to fetch and display a wide variety of meal recipes. Designed to be simple and user-friendly, MealFinder allows users to explore and discover new meal ideas easily.
+MealFinder is a React-based web application developed as a 2-hour challenge project. It utilizes TheMealDB API to fetch and display a wide variety of meal recipes. Designed to be simple and user-friendly, MealFinder allows users to explore and discover new meal ideas easily.
 
 ## Features
 - **Responsive Design:** Ensures a seamless experience across different devices.
