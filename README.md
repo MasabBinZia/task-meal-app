@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# Meal App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MealFinder is a React-based web application developed as a 24-hour challenge project. It utilizes TheMealDB API to fetch and display a wide variety of meal recipes. Designed to be simple and user-friendly, MealFinder allows users to explore and discover new meal ideas easily.
 
-Currently, two official plugins are available:
+## Features
+- **Responsive Design:** Ensures a seamless experience across different devices.
+- **API Integration:** Utilizes TheMealDB API for real-time meal data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+Follow these instructions to set up the project locally for development and testing purposes.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+Before you begin, ensure you have the following installed:
+- Node.js
+- npm or yarn
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Installation
+
+ Clone the repository to your local machine:
+ ```sh
+   git clone https://github.com/MasabBinZia/task-meal-app.git
+   ```
+
+   
+
+Navigate to the project directory:
+```sh
+  cd meal-finder-app
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Install the necessary packages:
+
+```sh
+ npm install
+```
+
+Start the development server:
+```sh
+npm run dev
+```
+
+Now, the app should be running on http://localhost:5173.
+
+### Installation
+React - The web framework used for building the UI.
+TheMealDB API - Provides the meal data used in the app.
+TypeScript - For type safety.
+TailwindCSS - For styling.
+Shadcn UI - A UI component library used for faster development.
